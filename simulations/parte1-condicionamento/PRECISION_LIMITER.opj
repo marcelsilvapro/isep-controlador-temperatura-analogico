@@ -1,0 +1,120 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1-2024 S001-[04/19/26]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (File ".\precision_limiter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\precision_limiter-pspicefiles\schematic1\schematic1.net"
+      (Type "Report"))
+    (File ".\precision_limiter-pspicefiles\drafts\drafts.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\precision_limiter-pspicefiles\schematic1\test2_p.sim"
+        (DisplayName "SCHEMATIC1-test2_p")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\precision_limiter-pspicefiles\schematic1\cmrr.sim"
+        (DisplayName "SCHEMATIC1-cmrr")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\precision_limiter-pspicefiles\drafts\cmrr_test.sim"
+        (DisplayName "Drafts-CMRR_test")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\precision_limiter-pspicefiles\schematic1\cmrr_test1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\precision_limiter-pspicefiles\schematic1\cmrr_test1.sim"
+        (DisplayName "SCHEMATIC1-cmrr_test1")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File
+         ".\precision_limiter-pspicefiles\schematic1\monte_carlo\tolerance.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           ".\precision_limiter-pspicefiles\schematic1\monte_carlo\tolerance.lib"))))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\danie\documents\precision_limiter\precision_limiter.dsn")
+      (Path "Design Resources"
+         "c:\users\danie\documents\precision_limiter\precision_limiter.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\danie\documents\precision_limiter\precision_limiter.dsn"
+         "Drafts")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "c:\users\danie\documents\precision_limiter\precision_limiter.dsn"
+         "Drafts" "CMRR"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 262 0 546"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 822 24 564")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\DANIE\DOCUMENTS\PRECISION_LIMITER\PRECISION_LIMITER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CMRR"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 822 24 564")
+        (Scroll "-53 -2")
+        (Zoom "70")
+        (Occurrence "/"))
+      (Path "C:\USERS\DANIE\DOCUMENTS\PRECISION_LIMITER\PRECISION_LIMITER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PRECISION"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 822 24 564")
+        (Scroll "0 100")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\DANIE\DOCUMENTS\PRECISION_LIMITER\PRECISION_LIMITER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "IA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 822 24 564")
+        (Scroll "288 211")
+        (Zoom "140"))
+      (Path "C:\USERS\DANIE\DOCUMENTS\PRECISION_LIMITER\PRECISION_LIMITER.DSN")
+      (Schematic "Drafts")
+      (Page "CMRR")))
+  (MPSSessionName "danie"))

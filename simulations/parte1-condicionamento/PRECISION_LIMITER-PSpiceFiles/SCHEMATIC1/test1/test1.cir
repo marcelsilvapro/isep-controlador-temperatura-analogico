@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-test1"  [ c:\users\danie\onedrive - instituto superior de engenharia do porto\eleapl\precision_limiter\precision_limiter-PSpiceFiles\SCHEMATIC1\test1.sim ] 
+
+** Creating circuit file "test1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(*) I(*) W(*) D(*) NOISE(*) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

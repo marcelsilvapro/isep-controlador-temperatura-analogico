@@ -1,0 +1,31 @@
+# Ficheiros temporários e de simulação PSpice for TI / OrCAD
+*.DSNlck
+*.DBK
+*.dbk
+*.bak
+*.dat
+*.out
+*.prb
+*.mrk
+*.mif
+*.json
+*_pspmetadata.db
+*.log
+~df/
+
+# Vídeos pesados (limite de 100 MB do GitHub)
+*.mp4
+*.mov
+*.avi
+
+# Ficheiros temporários Office / LabVIEW / IDEs
+~$*.xlsx
+~$*.docx
+*.tmp
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

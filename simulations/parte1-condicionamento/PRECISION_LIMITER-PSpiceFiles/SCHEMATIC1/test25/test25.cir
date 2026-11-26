@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-test25"  [ C:\Users\danie\OneDrive - Instituto Superior de Engenharia do Porto\ELEAPL\precision_limiter\PRECISION_LIMITER-PSpiceFiles\SCHEMATIC1\test25.sim ] 
+
+** Creating circuit file "test25.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../precision_limiter-pspicefiles/schematic1/monte_carlo/tolerance.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom.lib" 
+.lib "nom_pspti.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM T -20 60 1 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END
